@@ -1,0 +1,195 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html {
+   font-family: 'Montserrat', sans-serif;
+   background-color: #f8fafd;
+}
+
+a {
+   text-decoration: none;
+   /* color: #000; */
+}
+
+ul {
+   list-style-type: none;
+}
+
+.main {
+   display: flex;
+}
+
+.block1_navbar {
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+   border-top: 1px solid grey;
+   border-bottom: 1px solid grey;
+}
+
+.logo {
+   flex-basis: 10%;
+}
+
+.bank_tagline {
+   flex-basis: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.bank_tagline h2 {
+
+   color: orange;
+   font-size: 29px;
+   font-weight: 700;
+   text-align: center;
+   align-items: center;
+}
+
+.bank_tagline p {
+
+   text-align: center;
+   align-items: center;
+}
+
+.block1_navbar_links {
+   flex-basis: 70%;
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.block1_navbar_links a {
+   flex-basis: 25%;
+   justify-content: space-around;
+   align-items: center;
+   padding: 25px;
+   font-weight: 500;
+}
+
+.block1_navbar_links a:hover {
+   color: white;
+   font-size: 20px;
+   background-color: orange;
+   border-radius: 5px;
+   transition: 2ms;
+
+}
+
+.block1_context {
+   background-image: url('images/Bank-Of-Baroda.jpg');
+   height: 87vh;
+   background-size: 100% 100%;
+   border: 1px solid red;
+
+}
+
+
+/* left side bar */
+.block1_context_sidebar_left {
+   position: fixed;
+   top: 60%;
+   left: 0;
+   transform: translateY(-50%);
+   width: 70px;
+   background-color: #668683;
+   padding: 10px 0;
+}
+
+.block1_context_sidebar_left ul {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.block1_context_sidebar_left li {
+   margin: 10px 0;
+}
+
+.block1_context_sidebar_left a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+   transition: all 0.3s ease;
+}
+
+.block1_context_sidebar_left a:hover {
+   color: #F7D200;
+}
+
+.block1_context_sidebar_left ul li img {
+   width: 50px;
+   height: 50px;
+}
+
+/* RIGHT Side Bar */
+
+.block1_context_sidebar_right {
+   position: fixed;
+   top: 60%;
+   right: 0;
+   transform: translateY(-50%);
+   width: 100px;
+   background-color: #668683;
+
+   display: block;
+   align-items: center;
+   justify-content: center;
+}
+
+.block1_context_sidebar_right ul {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.block1_context_sidebar_right li {
+
+   border-top: 1px solid rgb(219, 215, 215);
+   padding: 15px;
+}
+
+.block1_context_sidebar_right li:hover {
+   background-color: orange;
+}
+
+.block1_context_sidebar_right a {
+   color: #fff;
+   font-size: 20px;
+   transition: all 0.3s ease;
+}
+
+
+
+.block1_context_sidebar_right ul li i img {
+   width: 30px;
+   height: 30px;
+}
+
+.homepage_dropdown {
+   position: absolute;
+   right: 100px;
+   border: 2px solid black;
+   color: white;
+   background-color: rgb(31, 31, 47);
+   font-size: 12px;
+   font-weight: 500;
+}
+
+
+.hide {
+   display: none;
+}
+
+.show {
+   display: block;
+}
+
+/* LOGIN PAGE */

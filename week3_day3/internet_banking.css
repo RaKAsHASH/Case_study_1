@@ -1,0 +1,112 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html {
+   font-family: 'Montserrat', sans-serif;
+   background-color: #f8fafd;
+}
+
+a {
+   text-decoration: none;
+   /* color: #000; */
+}
+
+ul {
+   list-style-type: none;
+}
+
+.main {
+   display: flex;
+}
+
+.block1_navbar {
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+   border-top: 1px solid grey;
+   border-bottom: 1px solid grey;
+}
+
+.logo {
+   flex-basis: 10%;
+}
+
+.bank_tagline {
+   flex-basis: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.bank_tagline h2 {
+
+   color: orange;
+   font-size: 29px;
+   font-weight: 700;
+   text-align: center;
+   align-items: center;
+}
+
+.bank_tagline p {
+
+   text-align: center;
+   align-items: center;
+}
+
+.block1_navbar_links {
+   flex-basis: 70%;
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.block1_navbar_links a {
+   flex-basis: 25%;
+   justify-content: space-around;
+   align-items: center;
+   padding: 25px;
+   font-weight: 500;
+}
+
+.block1_navbar_links a:hover {
+   color: white;
+   font-size: 20px;
+   background-color: orange;
+   border-radius: 5px;
+   transition: 2ms;
+
+}
+
+.block1_context {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 86vh;
+
+}
+
+.block_context_left {
+   flex-basis: 20%;
+   border: 1px solid black;
+}
+
+.block_context_left ul {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.block_context_left ul li {
+   padding: 12px;
+   border: 1px solid red;
+
+}
+
+.block_context_right {
+   flex-basis: 80%;
+   margin-left: 52px;
+}

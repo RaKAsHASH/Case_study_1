@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bank of Baroda</title>
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+   <div class="main">
+      <div class="main_block1">
+         <div class="block1_navbar">
+            <div class="logo">
+               <a href="/#"><img style="width: 90px; height: 90px;" src="images/bob_logo.png" alt="Bank lOgo"></a>
+            </div>
+            <div class="bank_tagline">
+               <h2>Bank Of Baroda</h2>
+               <p>India’s international bank.</p>
+            </div>
+            <div class="block1_navbar_links">
+               <a href="index.html">Home</a>
+               <a href="#">Services</a>
+               <a href="#">Apply For Loan</a>
+               <a href="#">Contact</a>
+               <a href="login.html">Login/SignIn</a>
+            </div>
+         </div>
+
+         <div class="block1_context">
+
+            <div class="block1_context_sidebar_left">
+               <ul>
+                  <li><a href="#"><img src="./images/facebook.png" alt="Facebook"></a>
+                  </li>
+                  <li><a href="#"><img src="./images/twitter.png" alt="twitter"></a></li>
+                  <li><a href="#"><img src="./images/instagram.jpg" alt="Instagram"></a>
+                  </li>
+                  <li><a href="#"><img src="./images/linkedin.jpg" alt="Linkedin"></a>
+                  </li>
+                  <li><a href="#"><img src="./images/youtube.jpg" alt="Gmail"></a></li>
+               </ul>
+            </div>
+            <div class="block1_context_sidebar_right">
+               <ul>
+                  <li><a href="#" onclick="myFunction()"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>
+                  </li>
+                  <div class="homepage_dropdown hide" id="myDropdown">
+                     <ul>
+                        <li><a href="internet_banking.html">Net Banking</a></li>
+                        <li><a href="">Credit Card Portal</a></li>
+                        <li><a href="">Demat/Trade/e-Ins A/c Open</a></li>
+                     </ul>
+                  </div>
+
+                  <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i></i>Rates</a>
+                  </li>
+                  <li><a href="#">Apply Debit Card</a>
+                  </li>
+                  <li><a href="#">BOB Diya<i class="fa fa-phone" aria-hidden="true"></i>CONTACT</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Calender</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="main_block2"></div>
+   </div>
+   <script>
+      function myFunction() {
+         document.getElementById("myDropdown").classList.toggle("show");
+      }
+   </script>
+</body>
+
+</html>
